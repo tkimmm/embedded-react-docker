@@ -1,4 +1,4 @@
-***Power BI React component running in a docker container***
+**Power BI React component running in a docker container**
 
 Source files are available at https://github.com/microsoft/PowerBI-client-react
 
