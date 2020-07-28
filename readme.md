@@ -5,8 +5,15 @@ Source files are available at https://github.com/microsoft/PowerBI-client-react
 **What has been done**
 
 - Example has been webpacked 
-- Example is served as static files on nginx
+- Example is served as static file on nginx
 
 **Runnning Instructions**
-- docker run -d -p 80:80 tkimm/powerbi-react:0.2.0
-- Open local browser and navigate to http://localhost:80/powerbi
+
+- Clone this repository
+- cd into this directory
+- 
+Copy and paste the code below into shell/terminal
+```
+docker build . -t embedded-react-powerbi:0.1.0 && docker run -p 80:80 -d embedded-react-powerbi:0.1.0
+```
+Open local browser and navigate to http://localhost:80
